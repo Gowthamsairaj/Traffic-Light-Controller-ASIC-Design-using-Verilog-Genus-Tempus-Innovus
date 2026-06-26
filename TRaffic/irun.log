@@ -1,0 +1,1098 @@
+irun(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s086: Started on Jun 09, 2026 at 15:27:40 IST
+irun
+	TRAFFIC_NETLIST.v
+	traffic_tb.v
+	/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v
+	-access +rwc
+	-gui
+Recompiling... reason: file './TRAFFIC_NETLIST.v' is newer than expected.
+	expected: Tue Jun  9 15:17:20 2026
+	actual:   Tue Jun  9 15:27:37 2026
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		TrafficLight_tb
+		ANTENNA
+		ACHCONX2
+		ADDFHX1
+		ADDFHX2
+		ADDFHX4
+		ADDFHXL
+		ADDFX1
+		ADDFX2
+		ADDFX4
+		ADDFXL
+		ADDHX1
+		ADDHX2
+		ADDHX4
+		ADDHXL
+		AND2X2
+		AND2X4
+		AND2X6
+		AND2X8
+		AND2XL
+		AND3X1
+		AND3X2
+		AND3X4
+		AND3X6
+		AND3X8
+		AND3XL
+		AND4X1
+		AND4X2
+		AND4X4
+		AND4X6
+		AND4X8
+		AND4XL
+		AO21X1
+		AO21X2
+		AO21X4
+		AO21XL
+		AO22X1
+		AO22X2
+		AO22X4
+		AO22XL
+		AOI211X1
+		AOI211X2
+		AOI211X4
+		AOI211XL
+		AOI21X4
+		AOI221X1
+		AOI221X2
+		AOI221X4
+		AOI221XL
+		AOI222X1
+		AOI222X2
+		AOI222X4
+		AOI222XL
+		AOI22X2
+		AOI22X4
+		AOI2BB1X1
+		AOI2BB1X2
+		AOI2BB1X4
+		AOI2BB1XL
+		AOI2BB2X1
+		AOI2BB2X2
+		AOI2BB2X4
+		AOI2BB2XL
+		AOI31X1
+		AOI31X2
+		AOI31X4
+		AOI31XL
+		AOI32X1
+		AOI32X2
+		AOI32X4
+		AOI32XL
+		AOI33X1
+		AOI33X2
+		AOI33X4
+		AOI33XL
+		BMXIX2
+		BMXIX4
+		BUFX12
+		BUFX16
+		BUFX20
+		BUFX3
+		BUFX4
+		BUFX6
+		BUFX8
+		CLKAND2X12
+		CLKAND2X4
+		CLKAND2X6
+		CLKAND2X8
+		CLKBUFX12
+		CLKBUFX16
+		CLKBUFX2
+		CLKBUFX20
+		CLKBUFX3
+		CLKBUFX4
+		CLKBUFX6
+		CLKBUFX8
+		CLKINVX12
+		CLKINVX16
+		CLKINVX20
+		CLKINVX3
+		CLKINVX4
+		CLKINVX6
+		CLKINVX8
+		CLKMX2X12
+		CLKMX2X2
+		CLKMX2X3
+		CLKMX2X4
+		CLKMX2X6
+		CLKMX2X8
+		CLKXOR2X1
+		CLKXOR2X2
+		CLKXOR2X4
+		CLKXOR2X8
+		DFFHQX1
+		DFFHQX2
+		DFFHQX4
+		DFFHQX8
+		DFFNSRX1
+		DFFNSRX2
+		DFFNSRX4
+		DFFNSRXL
+		DFFQX1
+		DFFQX2
+		DFFQX4
+		DFFQXL
+		DFFRHQX1
+		DFFRX1
+		DFFRX4
+		DFFRXL
+		DFFSHQX1
+		DFFSHQX2
+		DFFSHQX8
+		DFFSRHQX1
+		DFFSRHQX2
+		DFFSRHQX4
+		DFFSRHQX8
+		DFFSRX1
+		DFFSRX2
+		DFFSRX4
+		DFFSRXL
+		DFFSX1
+		DFFSX2
+		DFFSX4
+		DFFSXL
+		DFFTRX1
+		DFFTRX2
+		DFFTRX4
+		DFFTRXL
+		DFFX1
+		DFFX2
+		DFFX4
+		DFFXL
+		DLY1X1
+		DLY1X4
+		DLY2X4
+		DLY3X1
+		DLY3X4
+		DLY4X1
+		DLY4X4
+		EDFFHQX1
+		EDFFHQX2
+		EDFFHQX4
+		EDFFHQX8
+		EDFFTRX1
+		EDFFTRX2
+		EDFFTRX4
+		EDFFTRXL
+		EDFFX1
+		EDFFX2
+		EDFFX4
+		EDFFXL
+		HOLDX1
+		INVX12
+		INVX16
+		INVX20
+		INVX3
+		INVX4
+		INVX6
+		INVX8
+		MDFFHQX1
+		MDFFHQX2
+		MDFFHQX4
+		MDFFHQX8
+		MX2X1
+		MX2X2
+		MX2X4
+		MX2X6
+		MX2X8
+		MX2XL
+		MX3X1
+		MX3X2
+		MX3X4
+		MX3XL
+		MX4X1
+		MX4X2
+		MX4X4
+		MX4XL
+		MXI2X1
+		MXI2X2
+		MXI2X4
+		MXI2X6
+		MXI2X8
+		MXI3X1
+		MXI3X2
+		MXI3X4
+		MXI3XL
+		MXI4X1
+		MXI4X2
+		MXI4X4
+		MXI4XL
+		NAND2BX1
+		NAND2BX2
+		NAND2BX4
+		NAND2BXL
+		NAND2X6
+		NAND2X8
+		NAND3BX1
+		NAND3BX2
+		NAND3BX4
+		NAND3BXL
+		NAND3X4
+		NAND3X6
+		NAND3X8
+		NAND3XL
+		NAND4BBX1
+		NAND4BBX2
+		NAND4BBX4
+		NAND4BBXL
+		NAND4BX1
+		NAND4BX2
+		NAND4BX4
+		NAND4BXL
+		NAND4X1
+		NAND4X2
+		NAND4X4
+		NAND4X6
+		NAND4X8
+		NAND4XL
+		NOR2BX2
+		NOR2BX4
+		NOR2X6
+		NOR2X8
+		NOR3BX1
+		NOR3BX2
+		NOR3BX4
+		NOR3BXL
+		NOR3X1
+		NOR3X2
+		NOR3X6
+		NOR3X8
+		NOR3XL
+		NOR4BBX1
+		NOR4BBX2
+		NOR4BBX4
+		NOR4BBXL
+		NOR4BX1
+		NOR4BX2
+		NOR4BX4
+		NOR4BXL
+		NOR4X1
+		NOR4X2
+		NOR4X4
+		NOR4X6
+		NOR4X8
+		NOR4XL
+		OA21X1
+		OA21X2
+		OA21X4
+		OA21XL
+		OA22X1
+		OA22X2
+		OA22X4
+		OA22XL
+		OAI211X1
+		OAI211X2
+		OAI211X4
+		OAI211XL
+		OAI21X2
+		OAI21X4
+		OAI221X1
+		OAI221X2
+		OAI221X4
+		OAI221XL
+		OAI222X1
+		OAI222X2
+		OAI222X4
+		OAI222XL
+		OAI22X2
+		OAI22X4
+		OAI22XL
+		OAI2BB1X2
+		OAI2BB1X4
+		OAI2BB1XL
+		OAI2BB2X1
+		OAI2BB2X2
+		OAI2BB2X4
+		OAI2BB2XL
+		OAI31X1
+		OAI31X2
+		OAI31X4
+		OAI31XL
+		OAI32X1
+		OAI32X2
+		OAI32X4
+		OAI32XL
+		OAI33X1
+		OAI33X2
+		OAI33X4
+		OAI33XL
+		OR2X1
+		OR2X2
+		OR2X4
+		OR2X6
+		OR2X8
+		OR3X1
+		OR3X2
+		OR3X4
+		OR3X6
+		OR3X8
+		OR3XL
+		OR4X1
+		OR4X2
+		OR4X4
+		OR4X6
+		OR4X8
+		OR4XL
+		SDFFHQX1
+		SDFFHQX2
+		SDFFHQX4
+		SDFFHQX8
+		SDFFNSRX1
+		SDFFNSRX2
+		SDFFNSRX4
+		SDFFNSRXL
+		SDFFQX1
+		SDFFQX2
+		SDFFQX4
+		SDFFQXL
+		SDFFRHQX1
+		SDFFRHQX4
+		SDFFRHQX8
+		SDFFRX1
+		SDFFRX2
+		SDFFRX4
+		SDFFRXL
+		SDFFSHQX1
+		SDFFSHQX2
+		SDFFSHQX4
+		SDFFSHQX8
+		SDFFSRHQX1
+		SDFFSRHQX2
+		SDFFSRHQX4
+		SDFFSRHQX8
+		SDFFSRX1
+		SDFFSRX2
+		SDFFSRX4
+		SDFFSRXL
+		SDFFSX1
+		SDFFSX2
+		SDFFSX4
+		SDFFSXL
+		SDFFTRX1
+		SDFFTRX2
+		SDFFTRX4
+		SDFFTRXL
+		SDFFX1
+		SDFFX2
+		SDFFX4
+		SDFFXL
+		SEDFFHQX1
+		SEDFFHQX2
+		SEDFFHQX4
+		SEDFFHQX8
+		SEDFFTRX1
+		SEDFFTRX2
+		SEDFFTRX4
+		SEDFFTRXL
+		SEDFFX1
+		SEDFFX2
+		SEDFFX4
+		SEDFFXL
+		SMDFFHQX1
+		SMDFFHQX2
+		SMDFFHQX4
+		SMDFFHQX8
+		TBUFX1
+		TBUFX12
+		TBUFX16
+		TBUFX2
+		TBUFX20
+		TBUFX3
+		TBUFX4
+		TBUFX6
+		TBUFX8
+		TBUFXL
+		TIEHI
+		TIELO
+		TLATNCAX12
+		TLATNCAX16
+		TLATNCAX2
+		TLATNCAX20
+		TLATNCAX3
+		TLATNCAX4
+		TLATNCAX6
+		TLATNCAX8
+		TLATNSRX1
+		TLATNSRX2
+		TLATNSRX4
+		TLATNSRXL
+		TLATNTSCAX12
+		TLATNTSCAX16
+		TLATNTSCAX2
+		TLATNTSCAX20
+		TLATNTSCAX3
+		TLATNTSCAX4
+		TLATNTSCAX6
+		TLATNTSCAX8
+		TLATNX1
+		TLATNX2
+		TLATNX4
+		TLATSRX1
+		TLATSRX2
+		TLATSRX4
+		TLATSRXL
+		TLATX1
+		TLATX2
+		TLATX4
+		TLATXL
+		XNOR2X1
+		XNOR2X2
+		XNOR2X4
+		XNOR2XL
+		XNOR3X1
+		XNOR3XL
+		XOR2X1
+		XOR2X2
+		XOR2X4
+		XOR2XL
+		XOR3X1
+		XOR3XL
+     $recovery(posedge RN, posedge CK &&& D == 1'b1, trec$RN$CK, NOTIFIER);
+                                                              |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,4902|62): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TrafficLight_tb.L.\count_reg[2] ).
+     $recovery(posedge RN, posedge CK &&& D == 1'b1, trec$RN$CK, NOTIFIER);
+                                                              |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,4806|62): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TrafficLight_tb.L.\count_reg[3] ).
+     $recovery(posedge RN, posedge CK &&& D == 1'b1, trec$RN$CK, NOTIFIER);
+                                                              |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,4854|62): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TrafficLight_tb.L.\state_reg[3] ).
+     $recovery(posedge RN, posedge CK &&& D == 1'b1, trec$RN$CK, NOTIFIER);
+                                                              |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,4854|62): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TrafficLight_tb.L.\state_reg[5] ).
+     $recovery(posedge RN, posedge CK &&& D == 1'b1, trec$RN$CK, NOTIFIER);
+                                                              |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,4854|62): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TrafficLight_tb.L.\state_reg[4] ).
+     $recovery(posedge RN, posedge CK &&& D == 1'b1, trec$RN$CK, NOTIFIER);
+                                                              |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,4854|62): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TrafficLight_tb.L.\state_reg[2] ).
+     $recovery(posedge RN, posedge CK &&& D == 1'b1, trec$RN$CK, NOTIFIER);
+                                                              |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,4854|62): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TrafficLight_tb.L.\state_reg[1] ).
+     $recovery(posedge RN, posedge CK &&& D == 1'b1, trec$RN$CK, NOTIFIER);
+                                                              |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,4758|62): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (DFFRHQX1).
+     $recovery(posedge RN, posedge CK &&& D == 1'b1, trec$RN$CK, NOTIFIER);
+                                                              |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,4957|62): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (DFFRX1).
+     $recovery(posedge RN, posedge CK &&& D == 1'b1, trec$RN$CK, NOTIFIER);
+                                                              |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,5122|62): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (DFFRXL).
+     $hold (posedge CK, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,6705|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFHQX1).
+     $hold (posedge CK, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,6754|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFHQX2).
+     $hold (posedge CK, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,6803|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFHQX4).
+     $hold (posedge CK, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,6852|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFHQX8).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1 == 1'b1, negedge D, thold_negedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,6911|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX1).
+     $hold (posedge CK &&& RN == 1'b1, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,6913|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX1).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,6917|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX1).
+     $hold (posedge CK &&& RN == 1'b1, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,6919|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX1).
+     $hold (posedge CK, posedge RN, thold_posedge$RN$CK,  NOTIFIER);
+                                                      |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,6921|54): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX1).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1 == 1'b1, negedge D, thold_negedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,6980|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX2).
+     $hold (posedge CK &&& RN == 1'b1, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,6982|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX2).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,6986|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX2).
+     $hold (posedge CK &&& RN == 1'b1, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,6988|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX2).
+     $hold (posedge CK, posedge RN, thold_posedge$RN$CK,  NOTIFIER);
+                                                      |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,6990|54): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX2).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1 == 1'b1, negedge D, thold_negedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7049|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX4).
+     $hold (posedge CK &&& RN == 1'b1, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7051|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX4).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7055|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX4).
+     $hold (posedge CK &&& RN == 1'b1, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7057|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX4).
+     $hold (posedge CK, posedge RN, thold_posedge$RN$CK,  NOTIFIER);
+                                                      |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7059|54): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRX4).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1 == 1'b1, negedge D, thold_negedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7118|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRXL).
+     $hold (posedge CK &&& RN == 1'b1, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7120|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRXL).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7124|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRXL).
+     $hold (posedge CK &&& RN == 1'b1, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7126|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRXL).
+     $hold (posedge CK, posedge RN, thold_posedge$RN$CK,  NOTIFIER);
+                                                      |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7128|54): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFTRXL).
+     $hold (posedge CK &&& E == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7180|66): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFX1).
+     $hold (posedge CK, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7182|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFX1).
+     $hold (posedge CK &&& E == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7234|66): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFX2).
+     $hold (posedge CK, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7236|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFX2).
+     $hold (posedge CK &&& E == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7288|66): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFX4).
+     $hold (posedge CK, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7290|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFX4).
+     $hold (posedge CK &&& E == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7342|66): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFXL).
+     $hold (posedge CK, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,7344|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (EDFFXL).
+     $hold (posedge CK &&& SE == 1'b0, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14162|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFQX1).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14166|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFQX1).
+     $hold (posedge CK &&& SE == 1'b0, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14219|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFQX2).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14223|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFQX2).
+     $hold (posedge CK &&& SE == 1'b0, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14333|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFQXL).
+     $recovery(posedge RN, posedge CK, trec$RN$CK, NOTIFIER);
+                                                |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14545|48): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFRHQX4).
+     $recovery(posedge RN, posedge CK, trec$RN$CK, NOTIFIER);
+                                                |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14615|48): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFRHQX8).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14687|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFRX1).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_1 == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14691|85): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFRX1).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14764|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFRX2).
+     $recovery(posedge RN, posedge CK, trec$RN$CK, NOTIFIER);
+                                                |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14769|48): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFRX2).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14841|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFRX4).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_1 == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14845|85): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFRX4).
+     $recovery(posedge RN, posedge CK, trec$RN$CK, NOTIFIER);
+                                                |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14846|48): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFRX4).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14918|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFRXL).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_1 == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,14922|85): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFRXL).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0_AN_SN_EQ_1 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                              |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,15624|94): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFSRX1).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_1_AN_SN_EQ_1 == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                                                |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,15628|96): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFSRX1).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0_AN_SN_EQ_1 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                              |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,15718|94): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFSRX2).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_1_AN_SN_EQ_1 == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                                                |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,15722|96): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFSRX2).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0_AN_SN_EQ_1 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                              |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,15906|94): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFSRXL).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_1_AN_SN_EQ_1 == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                                                |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,15910|96): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFSRXL).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16295|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFTRX1).
+     $hold (posedge CK &&& D_EQ_1_AN_SE_EQ_0 == 1'b1, posedge RN, thold_posedge$RN$CK,  NOTIFIER);
+                                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16297|84): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFTRX1).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16301|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFTRX1).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16371|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFTRX2).
+     $hold (posedge CK &&& D_EQ_1_AN_SE_EQ_0 == 1'b1, posedge RN, thold_posedge$RN$CK,  NOTIFIER);
+                                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16373|84): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFTRX2).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16377|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFTRX2).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16447|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFTRX4).
+     $hold (posedge CK &&& D_EQ_1_AN_SE_EQ_0 == 1'b1, posedge RN, thold_posedge$RN$CK,  NOTIFIER);
+                                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16449|84): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFTRX4).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16453|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFTRX4).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16523|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFTRXL).
+     $hold (posedge CK &&& D_EQ_1_AN_SE_EQ_0 == 1'b1, posedge RN, thold_posedge$RN$CK,  NOTIFIER);
+                                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16525|84): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFTRXL).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16529|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFTRXL).
+     $hold (posedge CK &&& SE == 1'b0, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16587|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFX1).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16591|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFX1).
+     $hold (posedge CK &&& SE == 1'b0, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16649|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFX2).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16653|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFX2).
+     $hold (posedge CK &&& SE == 1'b0, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16711|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFX4).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16715|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFX4).
+     $hold (posedge CK &&& SE == 1'b0, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16773|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFXL).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16777|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SDFFXL).
+     $hold (posedge CK &&& E_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16841|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFHQX1).
+     $hold (posedge CK &&& SE == 1'b0, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16843|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFHQX1).
+     $hold (posedge CK &&& E_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16911|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFHQX2).
+     $hold (posedge CK &&& SE == 1'b0, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16913|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFHQX2).
+     $hold (posedge CK &&& E_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16981|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFHQX4).
+     $hold (posedge CK &&& SE == 1'b0, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,16983|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFHQX4).
+     $hold (posedge CK &&& E_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17051|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFHQX8).
+     $hold (posedge CK &&& SE == 1'b0, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17053|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFHQX8).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1_AN_SE_EQ_0 == 1'b1, negedge D, thold_negedge$D$CK,  NOTIFIER);
+                                                                                             |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17130|93): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX1).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17132|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX1).
+     $hold (posedge CK &&& SE == 1'b0, negedge RN, thold_negedge$RN$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17134|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX1).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                             |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17140|93): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX1).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17142|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX1).
+     $hold (posedge CK &&& SE == 1'b0, posedge RN, thold_posedge$RN$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17144|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX1).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17148|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX1).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1_AN_SE_EQ_0 == 1'b1, negedge D, thold_negedge$D$CK,  NOTIFIER);
+                                                                                             |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17221|93): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX2).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17223|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX2).
+     $hold (posedge CK &&& SE == 1'b0, negedge RN, thold_negedge$RN$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17225|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX2).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                             |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17231|93): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX2).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17233|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX2).
+     $hold (posedge CK &&& SE == 1'b0, posedge RN, thold_posedge$RN$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17235|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX2).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17239|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX2).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1_AN_SE_EQ_0 == 1'b1, negedge D, thold_negedge$D$CK,  NOTIFIER);
+                                                                                             |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17312|93): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX4).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17314|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX4).
+     $hold (posedge CK &&& SE == 1'b0, negedge RN, thold_negedge$RN$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17316|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX4).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                             |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17322|93): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX4).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17324|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX4).
+     $hold (posedge CK &&& SE == 1'b0, posedge RN, thold_posedge$RN$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17326|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX4).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17330|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRX4).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1_AN_SE_EQ_0 == 1'b1, negedge D, thold_negedge$D$CK,  NOTIFIER);
+                                                                                             |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17403|93): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRXL).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17405|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRXL).
+     $hold (posedge CK &&& SE == 1'b0, negedge RN, thold_negedge$RN$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17407|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRXL).
+     $hold (posedge CK &&& E_EQ_1_AN_RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                             |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17413|93): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRXL).
+     $hold (posedge CK &&& RN_EQ_1_AN_SE_EQ_0 == 1'b1, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17415|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRXL).
+     $hold (posedge CK &&& SE == 1'b0, posedge RN, thold_posedge$RN$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17417|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRXL).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17421|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFTRXL).
+     $hold (posedge CK &&& E_EQ_1_AN_SE_EQ_0 == 1'b1, negedge D, thold_negedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17482|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFX1).
+     $hold (posedge CK &&& E_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17490|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFX1).
+     $hold (posedge CK &&& SE == 1'b0, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17492|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFX1).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17496|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFX1).
+     $hold (posedge CK &&& E_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17565|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFX2).
+     $hold (posedge CK &&& SE == 1'b0, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17567|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFX2).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17571|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFX2).
+     $hold (posedge CK &&& E_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17640|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFX4).
+     $hold (posedge CK &&& SE == 1'b0, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17642|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFX4).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17646|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFX4).
+     $hold (posedge CK &&& E_EQ_1_AN_SE_EQ_0 == 1'b1, negedge D, thold_negedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17707|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFXL).
+     $hold (posedge CK &&& E_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D, thold_posedge$D$CK,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17715|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFXL).
+     $hold (posedge CK &&& SE == 1'b0, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17717|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFXL).
+     $hold (posedge CK &&& SE == 1'b1, posedge SI, thold_posedge$SI$CK,  NOTIFIER);
+                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17721|69): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SEDFFXL).
+     $hold (posedge CK &&& S0_EQ_0_AN_SE_EQ_0 == 1'b1, posedge D0, thold_posedge$D0$CK,  NOTIFIER);
+                                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17794|85): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SMDFFHQX1).
+     $hold (posedge CK &&& S0_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D1, thold_posedge$D1$CK,  NOTIFIER);
+                                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17796|85): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SMDFFHQX1).
+     $hold (posedge CK &&& S0_EQ_0_AN_SE_EQ_0 == 1'b1, posedge D0, thold_posedge$D0$CK,  NOTIFIER);
+                                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17875|85): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SMDFFHQX2).
+     $hold (posedge CK &&& S0_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D1, thold_posedge$D1$CK,  NOTIFIER);
+                                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17877|85): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SMDFFHQX2).
+     $hold (posedge CK &&& S0_EQ_0_AN_SE_EQ_0 == 1'b1, posedge D0, thold_posedge$D0$CK,  NOTIFIER);
+                                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17956|85): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SMDFFHQX4).
+     $hold (posedge CK &&& S0_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D1, thold_posedge$D1$CK,  NOTIFIER);
+                                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,17958|85): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SMDFFHQX4).
+     $hold (posedge CK &&& S0_EQ_0_AN_SE_EQ_0 == 1'b1, posedge D0, thold_posedge$D0$CK,  NOTIFIER);
+                                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,18037|85): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SMDFFHQX8).
+     $hold (posedge CK &&& S0_EQ_1_AN_SE_EQ_0 == 1'b1, posedge D1, thold_posedge$D1$CK,  NOTIFIER);
+                                                                                     |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,18039|85): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (SMDFFHQX8).
+     $hold (posedge CK, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,18386|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNCAX12).
+     $hold (posedge CK, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,18424|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNCAX16).
+     $hold (posedge CK, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,18500|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNCAX20).
+     $hold (posedge CK, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,18614|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNCAX6).
+     $hold (posedge CK, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,18652|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNCAX8).
+     $hold (posedge GN &&& RN_EQ_1_AN_SN_EQ_1 == 1'b1, negedge D, thold_negedge$D$GN,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,18728|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNSRX1).
+     $hold (posedge GN &&& D_EQ_1_AN_SN_EQ_1 == 1'b1, posedge RN, thold_posedge$RN$GN,  NOTIFIER);
+                                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,18732|84): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNSRX1).
+     $hold (posedge GN &&& RN_EQ_1_AN_SN_EQ_1 == 1'b1, negedge D, thold_negedge$D$GN,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,18814|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNSRX2).
+     $hold (posedge GN &&& D_EQ_1_AN_SN_EQ_1 == 1'b1, posedge RN, thold_posedge$RN$GN,  NOTIFIER);
+                                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,18818|84): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNSRX2).
+     $hold (posedge GN &&& RN_EQ_1_AN_SN_EQ_1 == 1'b1, negedge D, thold_negedge$D$GN,  NOTIFIER);
+                                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,18900|83): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNSRX4).
+     $hold (posedge GN &&& D_EQ_1_AN_SN_EQ_1 == 1'b1, posedge RN, thold_posedge$RN$GN,  NOTIFIER);
+                                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,18904|84): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNSRX4).
+     $hold (posedge GN &&& D_EQ_1_AN_SN_EQ_1 == 1'b1, posedge RN, thold_posedge$RN$GN,  NOTIFIER);
+                                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,18990|84): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNSRXL).
+     $hold (posedge CK &&& SE == 1'b0, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19038|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX12).
+     $hold (posedge CK &&& E == 1'b0, negedge SE, thold_negedge$SE$CK,  NOTIFIER);
+                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19040|68): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX12).
+     $hold (posedge CK &&& SE == 1'b0, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19042|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX12).
+     $hold (posedge CK &&& E == 1'b0, posedge SE, thold_posedge$SE$CK,  NOTIFIER);
+                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19044|68): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX12).
+     $hold (posedge CK &&& SE == 1'b0, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19086|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX16).
+     $hold (posedge CK &&& E == 1'b0, negedge SE, thold_negedge$SE$CK,  NOTIFIER);
+                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19088|68): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX16).
+     $hold (posedge CK &&& SE == 1'b0, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19090|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX16).
+     $hold (posedge CK &&& E == 1'b0, posedge SE, thold_posedge$SE$CK,  NOTIFIER);
+                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19092|68): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX16).
+     $hold (posedge CK &&& SE == 1'b0, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19134|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX2).
+     $hold (posedge CK &&& E == 1'b0, negedge SE, thold_negedge$SE$CK,  NOTIFIER);
+                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19136|68): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX2).
+     $hold (posedge CK &&& E == 1'b0, negedge SE, thold_negedge$SE$CK,  NOTIFIER);
+                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19184|68): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX20).
+     $hold (posedge CK &&& SE == 1'b0, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19186|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX20).
+     $hold (posedge CK &&& E == 1'b0, posedge SE, thold_posedge$SE$CK,  NOTIFIER);
+                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19188|68): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX20).
+     $hold (posedge CK &&& SE == 1'b0, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19230|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX3).
+     $hold (posedge CK &&& E == 1'b0, negedge SE, thold_negedge$SE$CK,  NOTIFIER);
+                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19232|68): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX3).
+     $hold (posedge CK &&& SE == 1'b0, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19278|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX4).
+     $hold (posedge CK &&& E == 1'b0, negedge SE, thold_negedge$SE$CK,  NOTIFIER);
+                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19280|68): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX4).
+     $hold (posedge CK &&& E == 1'b0, posedge SE, thold_posedge$SE$CK,  NOTIFIER);
+                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19284|68): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX4).
+     $hold (posedge CK &&& SE == 1'b0, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19326|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX6).
+     $hold (posedge CK &&& E == 1'b0, negedge SE, thold_negedge$SE$CK,  NOTIFIER);
+                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19328|68): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX6).
+     $hold (posedge CK &&& SE == 1'b0, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19330|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX6).
+     $hold (posedge CK &&& E == 1'b0, posedge SE, thold_posedge$SE$CK,  NOTIFIER);
+                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19332|68): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX6).
+     $hold (posedge CK &&& SE == 1'b0, negedge E, thold_negedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19374|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX8).
+     $hold (posedge CK &&& E == 1'b0, negedge SE, thold_negedge$SE$CK,  NOTIFIER);
+                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19376|68): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX8).
+     $hold (posedge CK &&& SE == 1'b0, posedge E, thold_posedge$E$CK,  NOTIFIER);
+                                                                   |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19378|67): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX8).
+     $hold (posedge CK &&& E == 1'b0, posedge SE, thold_posedge$SE$CK,  NOTIFIER);
+                                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19380|68): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNTSCAX8).
+     $hold (posedge GN, posedge D, thold_posedge$D$GN,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19428|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNX1).
+     $hold (posedge GN, posedge D, thold_posedge$D$GN,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19476|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNX2).
+     $hold (posedge GN, negedge D, thold_negedge$D$GN,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19522|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNX4).
+     $hold (posedge GN, posedge D, thold_posedge$D$GN,  NOTIFIER);
+                                                    |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19524|52): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATNX4).
+     $hold (negedge G &&& RN_EQ_1_AN_SN_EQ_1 == 1'b1, negedge D, thold_negedge$D$G,  NOTIFIER);
+                                                                                 |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19647|81): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATSRX1).
+     $hold (negedge G &&& D_EQ_1_AN_SN_EQ_1 == 1'b1, posedge RN, thold_posedge$RN$G,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19651|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATSRX1).
+     $hold (negedge G &&& RN_EQ_1_AN_SN_EQ_1 == 1'b1, negedge D, thold_negedge$D$G,  NOTIFIER);
+                                                                                 |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19732|81): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATSRX2).
+     $hold (negedge G &&& D_EQ_1_AN_SN_EQ_1 == 1'b1, posedge RN, thold_posedge$RN$G,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19736|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATSRX2).
+     $hold (negedge G &&& RN_EQ_1_AN_SN_EQ_1 == 1'b1, negedge D, thold_negedge$D$G,  NOTIFIER);
+                                                                                 |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19817|81): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATSRX4).
+     $hold (negedge G &&& D_EQ_1_AN_SN_EQ_1 == 1'b1, posedge RN, thold_posedge$RN$G,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19821|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATSRX4).
+     $hold (negedge G &&& RN_EQ_1_AN_SN_EQ_1 == 1'b1, negedge D, thold_negedge$D$G,  NOTIFIER);
+                                                                                 |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19902|81): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATSRXL).
+     $hold (negedge G &&& D_EQ_1_AN_SN_EQ_1 == 1'b1, posedge RN, thold_posedge$RN$G,  NOTIFIER);
+                                                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19906|82): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATSRXL).
+     $hold (negedge G, negedge D, thold_negedge$D$G,  NOTIFIER);
+                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,19957|50): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATX1).
+     $hold (negedge G, negedge D, thold_negedge$D$G,  NOTIFIER);
+                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,20004|50): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATX2).
+     $hold (negedge G, negedge D, thold_negedge$D$G,  NOTIFIER);
+                                                  |
+ncelab: *W,CUNGL1 (/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v,20051|50): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (TLATX4).
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                555     482
+		UDPs:                   309       3
+		Primitives:            1727       6
+		Timing outputs:         646      86
+		Registers:              163     156
+		Scalar wires:          2339       -
+		Initial blocks:           2       2
+		Pseudo assignments:       2       2
+		Timing checks:         2005     746
+		Simulation timescale:   1ps
+	Writing initial simulation snapshot: worklib.TrafficLight_tb:v
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /home/install/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm TrafficLight_tb.LED_NS TrafficLight_tb.LED_WE TrafficLight_tb.clk TrafficLight_tb.rst
+Created probe 1
+ncsim> run
+
+Warning!  Timing violation
+           $removal( posedge RN:10020 PS, posedge CK:10 NS,  0.19 : 190 PS );
+            File: /home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v, line = 14476
+           Scope: TrafficLight_tb.L.\count_reg[0] 
+            Time: 10020 PS
+
+
+Warning!  Timing violation
+           $setup( negedge D:18470 PS, posedge GN:18550 PS,  0.09 : 90 PS );
+            File: /home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v, line = 19569
+           Scope: TrafficLight_tb.L.\LED_NS_reg[0] 
+            Time: 18550 PS
+
+
+Warning!  Timing violation
+           $setup( posedge D:18500 PS, posedge GN:18550 PS,  0.19 : 190 PS );
+            File: /home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v, line = 19571
+           Scope: TrafficLight_tb.L.\LED_NS_reg[1] 
+            Time: 18550 PS
+
+
+Warning!  Timing violation
+           $setup( posedge D:18520 PS, posedge GN:18550 PS,  0.19 : 190 PS );
+            File: /home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v, line = 19571
+           Scope: TrafficLight_tb.L.\LED_NS_reg[2] 
+            Time: 18550 PS
+
+Simulation complete via $finish(1) at time 4010 NS + 0
+./traffic_tb.v:20 #4000 $finish;
+ncsim> ...Regained control from SimVision
+-------------------------------------
+TOOL:	irun(64)	15.20-s086: Exiting on Jun 09, 2026 at 16:01:50 IST  (total: 00:34:10)

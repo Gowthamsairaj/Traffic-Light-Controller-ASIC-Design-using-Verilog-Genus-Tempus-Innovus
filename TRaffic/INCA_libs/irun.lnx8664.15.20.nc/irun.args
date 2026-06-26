@@ -1,0 +1,10 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+TRAFFIC_NETLIST.v
+traffic_tb.v
+/home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v
+-access
++rwc
+-gui

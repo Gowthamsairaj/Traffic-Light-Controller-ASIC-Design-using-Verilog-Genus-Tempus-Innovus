@@ -1,0 +1,7 @@
+s1(09Jun2026:13:51:45):  irun traffic.v traffic_tb.v -access +rwc -gui -coverage all 
+s2(09Jun2026:14:03:50):  irun traffic.v traffic_tb.v -access +rwc -gui -coverage all 
+s3(09Jun2026:14:04:14):  irun traffic.v traffic_tb.v -access +rwc -gui -coverage all 
+s4(09Jun2026:15:17:04):  irun TRAFFIC_NETLIST.v traffic_tb.v /home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v -access +rwc -gui 
+s5(09Jun2026:15:17:37):  irun TRAFFIC_NETLIST.v traffic_tb.v /home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v -access +rwc -gui 
+s6(09Jun2026:15:19:40):  irun TRAFFIC_NETLIST.v traffic_tb.v /home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v -access +rwc -gui 
+s7(09Jun2026:15:27:40):  irun TRAFFIC_NETLIST.v traffic_tb.v /home/install/FOUNDRY/digital/90nm/dig/vlog/slow.v -access +rwc -gui 
